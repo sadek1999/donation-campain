@@ -5,7 +5,7 @@ const Card = ({ card }) => {
     const { title,img,type, themeColor,backgroundColor,textColor,id} = card;
     return (
         <div>
-            <Link to={"/details"}>
+            <Link to={`/details/${id}`}>
             
             <div className=" card-compact bg-base-100 shadow-xl">
                 <figure><img src={img} alt="Shoes" /></figure>
