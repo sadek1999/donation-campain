@@ -68,8 +68,8 @@
     {
       "id": 7,
       "title": "Nutrition Education",
-      "img": "nutrition-education.jpg",
-      "type": "https://i.ibb.co/vQhDk3j/Food.png",
+      "img": "https://i.ibb.co/vQhDk3j/Food.png",
+      "type": "food",
       "price": 10,
       "details": "Support nutrition education programs to promote healthy eating habits.",
       "themeColor": "#F8714751",
