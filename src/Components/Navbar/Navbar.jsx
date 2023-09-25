@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 
     const links=<>
-       <Link to={"/"}>Home</Link>
+       <Link    to={"/"}>Home</Link>
        <Link to={"/donation"}>Donation</Link>
        <Link to={'/statistics'}>Statistics</Link>
     </>
@@ -20,7 +20,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
+                    
                     <img src="../../../public/Resources/Logo.png" alt="" />
                 </div>
                 <div className="navbar-end hidden lg:flex">

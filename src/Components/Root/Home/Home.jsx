@@ -1,8 +1,12 @@
+import Cards from "../../Cards/Cards";
+import Bannar from "../../bannar/Bannar";
 
 const Home = () => {
     return (
         <div>
-            <h1>theid is home path..</h1>
+            <Bannar></Bannar>
+            <Cards></Cards>
+            
         </div>
     );
 };
