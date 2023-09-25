@@ -12,7 +12,7 @@ const Details = () => {
     const card=cards.find(card=>card.id===idInt)
     const {img,price,textColor,details,title}=card;
      const donate =()=>{
-       saveDatalocaly(idInt)
+       
         toast.success('Thank you for donation', {
             position: "top-center",
             autoClose: 5000,
@@ -23,9 +23,11 @@ const Details = () => {
             progress: undefined,
             theme: "light",
             });
+
+            saveDatalocaly(idInt)
      }
 
-    console.log(cards,idInt,card)
+    // console.log(cards,idInt,card)
     return (
         <div>
             <img className="w-full h-full lg:h-[500px] z-0 " src={img} alt="" />

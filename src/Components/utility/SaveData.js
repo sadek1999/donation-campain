@@ -1,7 +1,7 @@
 
 const getDatalocaly =()=>{
     const donations=localStorage.getItem('donation');
-    if(donations.length>0){
+    if(donations){
         return JSON.parse(donations)
     }
     return[]
@@ -9,8 +9,13 @@ const getDatalocaly =()=>{
 
 const saveDatalocaly=id=>{
   const donations=getDatalocaly();
-  donations.push(id);
-  localStorage.setItem('donation',JSON.stringify(donations))
+  const exist=donations.find(donation=>donation === id)
+  if(!exist){
+    donations.push(id);
+    localStorage.setItem('donation',JSON.stringify(donations))
+  }
+
+  
 }
 
 
