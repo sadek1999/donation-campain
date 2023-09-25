@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getDatalocaly } from "../utility/SaveData";
+import ShowDonatio from "../ShowDonation/ShowDonatio";
 
 
 const Donation = () => {
     const cards=useLoaderData();
     const [donations,setDonations]=useState([])
+    const[datalength,setDatalength]=useState(4)
     useEffect(()=>{
         const donations=getDatalocaly()
         const data=[]
@@ -23,7 +25,17 @@ const Donation = () => {
 
     return (
         <div>
-        <h1>This is donation patge ...........</h1>
+            <h1>{donations.length}</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            {
+            donations.slice(0,datalength) .map(donation=><ShowDonatio key={donation.id} donation={donation}></ShowDonatio>)
+        }
+            </div>
+            <div  className={datalength===donations.length && 'hidden'}>
+            <button onClick={()=>setDatalength(donations.length)} className="btn btn-primary ">Show All</button>
+            </div>
+            
+        
         </div>
     );
 };

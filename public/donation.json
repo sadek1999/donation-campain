@@ -7,7 +7,7 @@
       "price": 25,
       "details": "Education is not merely a privilege; it is a fundamental human right that should be accessible to all, regardless of their socio-economic background. Ensuring education for poor people is not just an act of compassion but a strategic investment in the future of societies. Education empowers individuals to break the cycle of poverty, fosters social mobility, and cultivates critical thinking skills that enable them to actively participate in the global economy. It is the foundation upon which innovation, progress, and societal development are built. ",
       "themeColor": "#FF444A51",
-      "backgroundColor": "#FF444A38",
+      "color_bg": "#FF444A38",
       "textColor": "#FF444A"
     },
     {
@@ -18,7 +18,7 @@
       "price": 40,
       "details": "Health is a priceless asset that transcends wealth, and it is a universal right that every individual should be able to enjoy regardless of their economic status. Good health not only enhances the quality of life but also plays a crucial role in an individual's ability to pursue their aspirations and contribute to society. Access to healthcare services, preventive measures, and education on health matters are essential components of a thriving society",
       "themeColor": "#0052FF51",
-      "backgroundColor": "#0052FF38",
+      "color_bg": "#0052FF38",
       "textColor": "#0052FF"
     },
     {
@@ -29,7 +29,7 @@
       "price": 15,
       "details": "Access to nutritious food is a basic human necessity that should be available to everyone, regardless of their economic circumstances. Food security is not only essential for individual well-being but also for the overall health and stability of communities and nations. Adequate nutrition is critical for physical and mental development, productivity, and overall quality of life. It's a fundamental pillar of human dignity and a prerequisite for people to thrive and reach their potential. ",
       "themeColor": "#F8714751",
-      "backgroundColor": "#F8714738",
+      "color_bg": "#F8714738",
       "textColor": "#F87147"
     },
     {
@@ -40,7 +40,7 @@
       "price": 25,
       "details": "Clothing is more than just a means of protection from the elements; it is a form of self-expression and a basic human necessity. Providing clothing to people in need, especially those who are less fortunate, is an important aspect of promoting dignity and well-being. Access to clean and appropriate clothing contributes to an individual's confidence and self-esteem, enabling them to participate more fully in society.",
       "themeColor": "#79C23F51",
-      "backgroundColor": "#79C23F38",
+      "color_bg": "#79C23F38",
       "textColor": "#79C23F"
     },
     {
@@ -51,7 +51,7 @@
       "price": 30,
       "details": "Education is not merely a privilege; it is a fundamental human right that should be accessible to all, regardless of their socio-economic background. Ensuring education for poor people is not just an act of compassion but a strategic investment in the future of societies. Education empowers individuals to break the cycle of poverty, fosters social mobility, and cultivates critical thinking skills that enable them to actively participate in the global economy. It is the foundation upon which innovation, progress, and societal development are built. ",
       "themeColor": "#FF444A51",
-      "backgroundColor": "#FF444A38",
+      "color_bg": "#FF444A38",
       "textColor": "#FF444A"
     },
     {
@@ -62,7 +62,7 @@
       "price": 20,
       "details": "Health is a priceless asset that transcends wealth, and it is a universal right that every individual should be able to enjoy regardless of their economic status. Good health not only enhances the quality of life but also plays a crucial role in an individual's ability to pursue their aspirations and contribute to society. Access to healthcare services, preventive measures, and education on health matters are essential components of a thriving society",
       "themeColor": "#0052FF51",
-      "backgroundColor": "#0052FF38",
+      "color_bg": "#0052FF38",
       "textColor": "#0052FF"
     },
     {
@@ -73,7 +73,7 @@
       "price": 10,
       "details": "Access to nutritious food is a basic human necessity that should be available to everyone, regardless of their economic circumstances. Food security is not only essential for individual well-being but also for the overall health and stability of communities and nations. Adequate nutrition is critical for physical and mental development, productivity, and overall quality of life. It's a fundamental pillar of human dignity and a prerequisite for people to thrive and reach their potential. ",
       "themeColor": "#F8714751",
-      "backgroundColor": "#F8714738",
+      "color_bg": "#F8714738",
       "textColor": "#F87147"
     },
     {
@@ -84,7 +84,7 @@
       "price": 15,
       "details": "Clothing is more than just a means of protection from the elements; it is a form of self-expression and a basic human necessity. Providing clothing to people in need, especially those who are less fortunate, is an important aspect of promoting dignity and well-being. Access to clean and appropriate clothing contributes to an individual's confidence and self-esteem, enabling them to participate more fully in society.",
       "themeColor": "#79C23F51",
-      "backgroundColor": "#79C23F38",
+      "color_bg": "#79C23F38",
       "textColor": "#79C23F"
     },
     {
@@ -95,7 +95,7 @@
       "price": 20,
       "details": "Education is not merely a privilege; it is a fundamental human right that should be accessible to all, regardless of their socio-economic background. Ensuring education for poor people is not just an act of compassion but a strategic investment in the future of societies. Education empowers individuals to break the cycle of poverty, fosters social mobility, and cultivates critical thinking skills that enable them to actively participate in the global economy. It is the foundation upon which innovation, progress, and societal development are built. ",
       "themeColor": "#FF444A51",
-      "backgroundColor": "#FF444A38",
+      "color_bg": "#FF444A38",
       "textColor": "#FF444A"
     },
     {
@@ -106,7 +106,7 @@
       "price": 35,
       "details": "Health is a priceless asset that transcends wealth, and it is a universal right that every individual should be able to enjoy regardless of their economic status. Good health not only enhances the quality of life but also plays a crucial role in an individual's ability to pursue their aspirations and contribute to society. Access to healthcare services, preventive measures, and education on health matters are essential components of a thriving society",
       "themeColor": "#0052FF51",
-      "backgroundColor": "#0052FF38",
+      "color_bg": "#0052FF38",
       "textColor": "#0052FF"
     },
     {
@@ -117,7 +117,7 @@
       "price": 50,
       "details": "Access to nutritious food is a basic human necessity that should be available to everyone, regardless of their economic circumstances. Food security is not only essential for individual well-being but also for the overall health and stability of communities and nations. Adequate nutrition is critical for physical and mental development, productivity, and overall quality of life. It's a fundamental pillar of human dignity and a prerequisite for people to thrive and reach their potential. ",
       "themeColor": "#F8714751",
-      "backgroundColor": "#F8714738",
+      "color_bg": "#F8714738",
       "textColor": "#F87147"
     },
     {
@@ -128,7 +128,7 @@
       "price": 30,
       "details": "Clothing is more than just a means of protection from the elements; it is a form of self-expression and a basic human necessity. Providing clothing to people in need, especially those who are less fortunate, is an important aspect of promoting dignity and well-being. Access to clean and appropriate clothing contributes to an individual's confidence and self-esteem, enabling them to participate more fully in society.",
       "themeColor": "#79C23F51",
-      "backgroundColor": "#79C23F38",
+      "color_bg": "#79C23F38",
       "textColor": "#79C23F"
     }
   ]

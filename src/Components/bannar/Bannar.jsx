@@ -10,7 +10,7 @@ const Bannar = () => {
             <div className="bg-[#FFFFFFF2] w-full h-96 relative space-y-3  items-center ">
 
                 <div>
-                <h1 className="uppercase text-4xl font-bold">I Grow By Helping People In Need</h1>
+                <h1 className="uppercase text-4xl font-bold text-center">I Grow By Helping People In Need</h1>
                 </div>
                 
                 <div className=" mx-auto relative flex h-10 w-full min-w-[200px] max-w-[24rem]">
