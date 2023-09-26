@@ -2,7 +2,7 @@
 
 const Bannar = () => {
     return (
-        <div  className="mb-5">
+        <div  className="">
             <div className="h-full w-full  ">
                  
            
