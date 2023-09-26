@@ -19,7 +19,7 @@ const b={
 
              
 
-            <div className=" flex flex-col md:flex-row rounded-xl  text-gray-700" style={c}>
+            <div className=" flex flex-col lg:flex-row rounded-xl  text-gray-700" style={c}>
                 <div className="">
                     <img className="w-full h-full"
                         src={img}

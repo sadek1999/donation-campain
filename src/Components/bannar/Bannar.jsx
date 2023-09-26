@@ -3,10 +3,14 @@ import { useState } from "react";
 
 const Bannar = () => {
     const[value,setValue]=useState("ALL")
+    const[type,settype]=useState('')
+    
     const handalClick=()=>{
-        console.log('click on the search button')
+        settype('')
+        
+        console.log('click on the search button',value)
     }
-    console.log(value)
+    // console.log(value)
     return (
         <div  className="">
             <div className="h-full w-full  ">
@@ -19,7 +23,7 @@ const Bannar = () => {
                     <div className="md:w-2/3 mx-auto  ">
                     <h1 className="uppercase text-xl md:text-4xl font-bold text-center ">I Grow By Helping People In Need</h1>
                     <div className=" flex justify-center mt-3">
-                    <input onChange={(e)=>{setValue(e.target.value)}}  type="text" placeholder="Type here" className="input input-bordered input-primary w-full max-w-xs mr-2 " />
+                    <input onChange={(e)=>{setValue(e.target.value.toLowerCase())}}  type="text"  placeholder="Type here" className="input input-bordered input-primary w-full max-w-xs mr-2 " />
 
 
 
