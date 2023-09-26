@@ -11,6 +11,9 @@ const Details = () => {
     const idInt=parseInt(id);
     const card=cards.find(card=>card.id===idInt)
     const {img,price,textColor,details,title}=card;
+    const c={
+        backgroundColor:textColor,
+    }
      const donate =()=>{
        
         toast.success('Thank you for donation', {
@@ -30,12 +33,13 @@ const Details = () => {
     // console.log(cards,idInt,card)
     return (
         <div>
-            <img className="w-full h-full lg:h-[500px] z-0 " src={img} alt="" />
-            <div className="p-5 bg-[#0B0B0B7F] -mt-24 z-10">
-                <button onClick={donate} className=" rounded justify-start text-xl text-white 
-                    
-                  py-1 px-2 bg-red-400">Donate ${price}</button>
+            <div className="w-full h-full relative">
+            <img className="w-full h-full lg:h-[500px]  " src={img} alt="" />
+            <div className="p-5 bg-[#0B0B0B80] absolute -mt-[75px] w-full">
+                <button onClick={donate} className=" rounded justify-start text-xl text-white  py-1 px-2 " style={c}>Donate ${price}</button>
             </div>
+            </div>
+            
             <div className="mt-12 space-y-3">
             <h1 className="text-4xl font-bold ">{title}</h1>
         <p>{details}</p>

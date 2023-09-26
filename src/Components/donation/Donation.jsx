@@ -25,13 +25,17 @@ const Donation = () => {
 
     return (
         <div>
-            <h1>{donations.length}</h1>
+           
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             {
             donations.slice(0,datalength) .map(donation=><ShowDonatio key={donation.id} donation={donation}></ShowDonatio>)
         }
             </div>
-            <div  className={datalength===donations.length && 'hidden'}>
+            
+            <div  className={datalength===donations.length || donations.length <= 4 ?'hidden':''}>
+                
+                    
+                              
             <button onClick={()=>setDatalength(donations.length)} className="btn btn-primary ">Show All</button>
             </div>
             

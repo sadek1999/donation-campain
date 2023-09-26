@@ -19,7 +19,7 @@ const Card = ({ card }) => {
             <Link to={`/details/${id}`}>
             
             <div className=" card-compact bg-base-100 shadow-xl">
-                <figure><img src={img} alt="Shoes" /></figure>
+                <figure><img src={img} className='w-full' alt="Shoes" /></figure>
                 <div  className={`p-5 space-y-2 `} style={c}>
 
                 <button className='py-1 px-3 rounded-md' style={a} >{type}</button>
