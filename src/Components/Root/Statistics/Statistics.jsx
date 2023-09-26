@@ -7,7 +7,7 @@ import Chart from 'react-apexcharts';
 
 
 const Statistics = () => {
-  const cards = useLoaderData();
+  const cards = JSON.parse(useLoaderData());
   const [donations, setDonations] = useState([])
   const [datalength, setDatalength] = useState(4)
   useEffect(() => {
@@ -30,7 +30,7 @@ const Statistics = () => {
   return (
     <React.Fragment>
       <div className="flex justify-center">
-        <h1>Welcome the statisic</h1>
+      
         <Chart 
          type='pie'
          height={500}
@@ -38,7 +38,7 @@ const Statistics = () => {
          series={[a,b]}
          options={
           {
-            labels:['donations','oporchonoty']
+            labels:['Your Donations','Total Donations']
           }
          }
 

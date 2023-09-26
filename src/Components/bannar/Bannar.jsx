@@ -1,6 +1,12 @@
+import { useState } from "react";
 
 
 const Bannar = () => {
+    const[value,setValue]=useState("ALL")
+    const handalClick=()=>{
+        console.log('click on the search button')
+    }
+    console.log(value)
     return (
         <div  className="">
             <div className="h-full w-full  ">
@@ -13,8 +19,11 @@ const Bannar = () => {
                     <div className="md:w-2/3 mx-auto  ">
                     <h1 className="uppercase text-xl md:text-4xl font-bold text-center ">I Grow By Helping People In Need</h1>
                     <div className=" flex justify-center mt-3">
-                    <input type="text" placeholder="Type here" className="input input-bordered input-primary w-full max-w-xs mr-2 " />
-                    <button  className="btn btn-primary">search</button>
+                    <input onChange={(e)=>{setValue(e.target.value)}}  type="text" placeholder="Type here" className="input input-bordered input-primary w-full max-w-xs mr-2 " />
+
+
+
+                    <button onClick={handalClick} className="btn bg-red-500 text-white">search</button>
                     </div>
                    
                    

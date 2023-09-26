@@ -25,17 +25,17 @@ const router = createBrowserRouter([
       {
         path:'/statistics',
         element:<Statistics></Statistics>,
-        loader:()=>fetch(`donation.json`)
+        loader:()=>fetch('https://raw.githubusercontent.com/sadek1999/job-hub-3/main/public/donation.json')
       },
       {
         path:'/donation',
         element:<Donation></Donation>,
-        loader:()=>fetch(`donation.json`)
+        loader:()=>fetch('https://raw.githubusercontent.com/sadek1999/job-hub-3/main/public/donation.json')
       },
       {
         path:'/details/:id',
         element:<Details></Details>,
-        loader:()=>fetch(`donation.json`)
+        loader:()=>fetch('https://raw.githubusercontent.com/sadek1999/job-hub-3/main/public/donation.json')
       }
 
 

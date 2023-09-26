@@ -5,7 +5,8 @@ import ShowDonatio from "../ShowDonation/ShowDonatio";
 
 
 const Donation = () => {
-    const cards = useLoaderData();
+    const cards =JSON.parse(useLoaderData())
+    console.log(cards)
     const [donations, setDonations] = useState([])
     const [datalength, setDatalength] = useState(4)
     useEffect(() => {
@@ -26,7 +27,7 @@ const Donation = () => {
     return (
         <div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
                 {
                     donations.slice(0, datalength).map(donation => <ShowDonatio key={donation.id} donation={donation}></ShowDonatio>)
                 }

@@ -6,7 +6,7 @@ import { saveDatalocaly } from "../utility/SaveData";
 
 
 const Details = () => {
-    const cards=useLoaderData()
+    const cards=JSON.parse(useLoaderData());
     const{id}=useParams();
     const idInt=parseInt(id);
     const card=cards.find(card=>card.id===idInt)
