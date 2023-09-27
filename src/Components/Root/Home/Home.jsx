@@ -22,7 +22,7 @@ const Home = () => {
             <div className="">
                 <div className="h-full w-full  ">
 
-<img src="" alt="" />
+
                     <div className=" w-full h-96 z-20 space-y-3  items-center bg-no-repeat bg-cover  
              bg-[url(../../../../public/Resources/donation.png)]">
 
@@ -34,7 +34,7 @@ const Home = () => {
 
                                         <input ref={nameref} type="text" placeholder="Type here" className="   w-full rounded-l-sm md:w-80 p-1  " />
 
-                                        <input className="bg-red-500 py-1 px-3 font-bold text-xl rounded-r-sm text-white" type="submit" value="search" />
+                                        <input className="bg-red-500 py-1 px-3 font-bold text-xl rounded-r-md text-white" type="submit" value="search" />
 
                                         
 
