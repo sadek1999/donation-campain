@@ -6,10 +6,12 @@ import React from 'react';
 import Chart from 'react-apexcharts';
 
 
+
+
 const Statistics = () => {
   const cards = JSON.parse(useLoaderData());
   const [donations, setDonations] = useState([])
-  const [datalength, setDatalength] = useState(4)
+  
   useEffect(() => {
       const donations = getDatalocaly()
       const data = []
@@ -22,19 +24,20 @@ const Statistics = () => {
       setDonations(data);
 
   }, [])
-  console.log(donations.length,cards.length)
+ 
 
 
   const a=donations.length;
   const b=cards.length-donations.length;
   return (
+    
     <React.Fragment>
-      <div className="flex justify-center">
-      
+      <div className="flex justify-center  items-center w-full  h-96 ">
+    
         <Chart 
          type='pie'
-         height={500}
-         width={800}
+         height={400}
+         width={393}
          series={[a,b]}
          options={
           {

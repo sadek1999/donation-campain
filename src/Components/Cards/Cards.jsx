@@ -3,9 +3,9 @@ import Card from '../Card/Card';
 
 const Cards = ({value}) => {
     
-    console.log(value)
+   
     const [cards,setCars]=useState([]);
-    const[newCard,setnewCard]=useState([]);
+   
     useEffect(()=>{
         fetch('donation.json')
         .then(res=>res.json())

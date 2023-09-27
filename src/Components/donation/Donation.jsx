@@ -6,7 +6,7 @@ import ShowDonatio from "../ShowDonation/ShowDonatio";
 
 const Donation = () => {
     const cards =JSON.parse(useLoaderData())
-    console.log(cards)
+    
     const [donations, setDonations] = useState([])
     const [datalength, setDatalength] = useState(4)
     useEffect(() => {
@@ -21,7 +21,7 @@ const Donation = () => {
         setDonations(data);
 
     }, [])
-    // console.log(donations)
+    
 
 
     return (
