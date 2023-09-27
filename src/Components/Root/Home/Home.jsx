@@ -3,6 +3,7 @@ import Cards from "../../Cards/Cards";
 
 import { useEffect, useRef, useState } from "react";
 
+
 const Home = () => {
    
     const nameref=useRef(null)
@@ -24,7 +25,7 @@ const Home = () => {
 
 
                     <div className=" w-full h-96 z-20 space-y-3  items-center bg-no-repeat bg-cover  
-             bg-[url(../../../../public/Resources/donation.png)]">
+             bg-[url(https://i.ibb.co/grm4Y0f/donation.png)]">
 
                         <div className=" w-full h-96 bg-[#FFFFFFCC] flex items-center">
                             <div className="md:w-2/3 mx-auto  ">
