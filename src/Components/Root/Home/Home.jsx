@@ -11,7 +11,8 @@ const Home = () => {
     
     const handalsubmit = e =>{
           e.preventDefault();
-         setValue(nameref.current.value.toLowerCase()) 
+         setValue(nameref.current.value.toLowerCase())
+         nameref.current.value=''; 
     }
     
     
